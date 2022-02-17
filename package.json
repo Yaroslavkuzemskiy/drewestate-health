@@ -1,0 +1,29 @@
+{
+  "name": "optimum",
+  "version": "1.0.0",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "drewestate": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.13.0",
+    "@wdio/cli": "^7.13.0",
+    "@wdio/local-runner": "^7.13.0",
+    "@wdio/mocha-framework": "^7.13.0",
+    "@wdio/selenium-standalone-service": "^7.13.0",
+    "@wdio/spec-reporter": "^7.13.0",
+    "@wdio/sync": "^7.13.0",
+    "reg-cli": "^0.17.3",
+    "wdio-image-comparison-service": "^2.0.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "webdriver-manager": "^12.1.8"
+  },
+  "description": ""
+}
